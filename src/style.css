@@ -1,0 +1,47 @@
+body {
+    background: rgb(3, 32, 70);
+}
+
+.reduxMain {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.reduxBtn {
+    align-self: center;
+    text-align: center;
+}
+
+.reduxBtn span {
+    color: #fff;
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.reduxBtn button {
+    background: rgb(207, 204, 204);
+    padding: 10px 30px;
+    margin: 0 5px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.reduxBtn button:hover {
+    background: rgb(211, 18, 18);
+    color: #fff;
+}
